@@ -132,16 +132,19 @@ img {
 
 /* Mobile  */
 @media screen and (max-width: 480px) {
-/* style of header */
+
+    /* style of header */
     h1 {
         margin-bottom: 1rem;
     }
-/* style container  */
+
+    /* style container  */
     .container {
         max-width: 100%;
         padding: 1rem;
     }
-/* style of row */
+
+    /* style of row */
     .row {
         flex-wrap: wrap;
         justify-content: center;
@@ -149,11 +152,13 @@ img {
         flex-direction: column;
     }
 
-/* style of column */
+    /* style of column */
     .col {
         padding-bottom: 1rem;
     }
- Astyle of section steps
+
+    /* style of section steps */
+
     .lessons .col,
     .steps .col {
         width: 100%;
@@ -176,27 +181,27 @@ img {
 
 
 
-.why-us h2 {
-    padding: 0 3rem;
-}
+    .why-us h2 {
+        padding: 0 3rem;
+    }
 
-.why-us img {
-    padding: 0 2rem;
-}
+    .why-us img {
+        padding: 0 2rem;
+    }
 
-.why-us {
-    display: flex;
-    flex-direction: column;
-}
+    .why-us {
+        display: flex;
+        flex-direction: column;
+    }
 
 
-.why-us .col-left {
-    width:100%;
-}
+    .why-us .col-left {
+        width: 100%;
+    }
 
-.why-us .col-right {
-    width: 100%;
-}
+    .why-us .col-right {
+        width: 100%;
+    }
 }
 
 
@@ -207,13 +212,32 @@ img {
     .container {
         max-width: 100%;
     }
+
     .col {
         padding-right: 2rem;
+    }
+
+    .why-us {
+        margin-bottom: 1rem;
+    }
+
+
+
 }
-.why-us {
-    margin-bottom: 1rem;
-}
+
+
+/* Bonus */
 
 
 
+@media screen and (min-width: 768px) and (max-width: 1158px) {
+    
+    
+    
+    .container {
+        width: 100%;
+    }
+    .col{
+        padding-right: 1rem;
+    }
 }
