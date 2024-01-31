@@ -200,3 +200,20 @@ img {
 }
 
 
+
+
+/* tablet */
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+    .col {
+        padding-right: 2rem;
+}
+.why-us {
+    margin-bottom: 1rem;
+}
+
+
+
+}
